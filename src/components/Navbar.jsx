@@ -12,7 +12,7 @@ const Navbar = () => {
            <div>
               <Link to="/home">बिजया दशमी </Link>
         </div>
-        <div className='flex justify-center gap-7 mt-5 hidden md:flex'>
+        <div className='justify-center gap-7 mt-5 hidden md:flex'>
              
         <Link to="/photo">Photos</Link>
         <Link to="/video">Videos</Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <Link to="/video">Videos</Link>
          <Link to="/blog">Blogs</Link>
 
-
+         <button className='bg-[#3165f1] text-white p-2 rounded-4xl hover:bg-blue-500 h-10 w-100'> Wish Me  </button>  
      </div>
 
       
