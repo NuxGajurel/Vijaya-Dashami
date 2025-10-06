@@ -5,6 +5,7 @@ import Photos from './components/Photos'
 import Videos from './components/Videos'
 import Blogs from './components/Blogs'
 import Home from './components/Home'
+import Wishme from './components/Wishme'
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
     <Route path='/photo' element={<Photos/>}/>
      <Route path='/video' element={<Videos/>}/>
       <Route path='/blog' element={<Blogs/>}/>
+      <Route path='/wish' element={<Wishme/>}/>
   </Routes>
   
   

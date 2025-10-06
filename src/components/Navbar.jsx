@@ -21,7 +21,7 @@ const Navbar = () => {
 
      </div>
      <div className='hidden md:flex'>
-        <button className='bg-[#3165f1] text-white p-2 rounded-4xl hover:bg-blue-500'> Wish Me  </button>
+      <Link to="/wish">  <button className='bg-[#3165f1] text-white p-2 rounded-4xl hover:bg-blue-500'> Wish Me  </button></Link> 
      </div>
      
      <div className='md:hidden'>
@@ -38,8 +38,8 @@ const Navbar = () => {
         <Link to="/photo">Photos</Link>
         <Link to="/video">Videos</Link>
          <Link to="/blog">Blogs</Link>
-
-         <button className='bg-[#3165f1] text-white p-2 rounded-4xl hover:bg-blue-500 h-10 w-100'> Wish Me  </button>  
+ <Link to="/wish">
+         <button className='bg-[#3165f1] text-white p-2 rounded-4xl hover:bg-blue-500 h-10 w-100'> Wish Me</button></Link>
      </div>
 
       
